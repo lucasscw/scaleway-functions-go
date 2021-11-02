@@ -1,6 +1,6 @@
 # Scaleway Functions Go
 
-Library authored By [Scaleway's Serverless Team](https://scaleway.com).
+Library authored By Scaleway's Serverless Team.
 
 This repository contains a runtime wrapper necessary to develop with Golang on `Scaleway Functions` (Scaleway's Function As A Service Product). It allows users  to deploy Golang Function Handlers in the cloud by adding the transport/event formatting layer on top of the developer's codebase.
 
@@ -129,15 +129,14 @@ func main() {
 
 ## Documentation and Useful links
 
-As `Scaleway Functions` is in early access phase, developers invited to use our product will receive a link to the documentation of the platform.
-
-You may use the [Serverless Framework](https://serverless.com) to deploy your Golang functions, with our plugin [for Scaleway Functions platform](https://github.com/scaleway/serverless-scaleway-functions).
+- [Product Information](https://www.scaleway.com/en/serverless-functions/)
+- [Official Scaleway Serverless Functions Documentation](https://www.scaleway.com/en/docs/compute/functions/api-cli/fun-uploading-with-serverless-framework/)
+- [Official Scaleway Serverless Functions Developers Documentation](https://developers.scaleway.com/en/products/functions/api/)
+- [Code examples](https://www.scaleway.com/en/docs/compute/functions/reference-content/code-examples/#go)
 
 ## Contributing
 
-As said above, we are only in `early access phase`, so this plugin is mainly developed and maintained by `Scaleway Serverless Team`. When the platform will reach a stable release, contributions via Pull Requests will be open.
-
-Until then, you are free to open issues or discuss with us on our [Community Slack Channels](https://slack.online.net/).
+This plugin is mainly developed and maintained by `Scaleway Serverless Team` but you are free to open issues or discuss with us on our [Community Slack Channels](https://scaleway-community.slack.com/) #serverless-containers and #serverless-functions.
 
 ## License
 
